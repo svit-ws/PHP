@@ -1,6 +1,23 @@
 {
-    "name": "wayforpay/php",
-    "description": "Wayforpay PHP API",
+    "name":"svit-ws/WayForPay",
+    "type": "library",
+    "description": "WayForPay PHP API",
+    "keywords": ["WayForPay","pay"],
+    "homepage": "https://github.com/svit-ws/WayForPay",
     "license": "MIT",
-    "require": {}
+    "authors": [
+        {
+            "name": "SVit",
+            "email": "info@swit.ws",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "php":">=5.3.0"
+    },
+    "autoload":{
+        "classmap":[
+            "./WayForPay.php"
+        ]
+    }
 }
